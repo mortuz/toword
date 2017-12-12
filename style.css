@@ -29,3 +29,8 @@ ul{
     border:1px solid #ccc;
     cursor: pointer;
 }
+.list{
+    position: fixed;
+    right: 0;
+
+}

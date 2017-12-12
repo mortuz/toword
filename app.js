@@ -3,6 +3,15 @@
 
     var banquet = [];
     var administration = [];
+    var concierge = [];
+    var office = [];
+    var flower = [];
+    var finance = [];
+    var food = [];
+    var linen = [];
+    var maintenance = [];
+    var kitchen = [];
+    var security = [];
     
     var currentList;
     var currentHook;
@@ -61,6 +70,24 @@
             changecurrentList(banquet);
         } else if (variable == 'administration') {
             changecurrentList(administration);
+        } else if (variable == 'concierge') {
+            changecurrentList(concierge);
+        } else if (variable == 'office') {
+            changecurrentList(office);
+        } else if (variable == 'flower') {
+            changecurrentList(flower);
+        } else if (variable == 'finance') {
+            changecurrentList(finance);
+        } else if (variable == 'food') {
+            changecurrentList(food);
+        } else if (variable == 'linen') {
+            changecurrentList(linen);
+        } else if (variable == 'maintenance') {
+            changecurrentList(maintenance);
+        } else if (variable == 'kitchen') {
+            changecurrentList(kitchen);
+        } else if (variable == 'security') {
+            changecurrentList(security);
         }
     })
 
